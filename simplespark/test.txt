@@ -1,0 +1,6 @@
+hello spark 
+first time using spark 
+this is the word counting example 
+thank you for using spark.
+Spark
+Sparks
