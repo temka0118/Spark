@@ -1,0 +1,43 @@
+@prefix ex:    <ex:> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf:  <foaf:> .
+
+<http://example.com/resource/Person/1305>
+        ex:disease  "FLU" ;
+        ex:hasJob   "Lawyer" ;
+        foaf:age    "22" .
+
+<http://example.com/resource/Person/1389>
+        ex:disease  "HIV" ;
+        ex:hasJob   "Writer" ;
+        foaf:age    "35" .
+
+<http://example.com/resource/Person/1463>
+        ex:disease  "HIV" ;
+        ex:hasJob   "Writer" ;
+        foaf:age    "36" .
+
+<http://example.com/resource/Person/1058>
+        ex:disease  "FLU" ;
+        ex:hasJob   "Musician" ;
+        foaf:age    "38" .
+
+<http://example.com/resource/Person/1435>
+        ex:disease  "HIV" ;
+        ex:hasJob   "Teacher" ;
+        foaf:age    "25" .
+
+<http://example.com/resource/Person/1453>
+        ex:disease  "FLU" ;
+        ex:hasJob   "Musician" ;
+        foaf:age    "32" .
+
+<http://example.com/resource/Person/1352>
+        ex:disease  "FLU" ;
+        ex:hasJob   "Lawyer" ;
+        foaf:age    "28" .
+
+<http://example.com/resource/Person/1872>
+        ex:disease  "HIV" ;
+        ex:hasJob   "Teacher" ;
+        foaf:age    "24" .

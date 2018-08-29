@@ -1,0 +1,188 @@
+# baseURI: http://www.census.gov/geo/zcta
+# imports: http://www.census.gov/acs/pums/2014/dictionary
+# prefix: zcta
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix zcta: <http://www.census.gov/geo/zcta#> .
+
+<http://www.census.gov/geo/zcta>
+  rdf:type owl:Ontology ;
+  owl:imports <http://www.census.gov/acs/pums/2014/dictionary> ;
+  owl:versionInfo "Created by Jonathan Ortiz"^^xsd:string ;
+.
+<http://www.census.gov/geo/zcta#2010ZCTA>
+  rdf:type owl:Class ;
+  rdfs:comment "In year 2000, the US Census Bureau changed the name of the geographic entity previously referred to as ZIP codes. They are now referred to as ZIP Census Tabulation Areas (ZCTA), and they are not exactly ZIP Codes, but fairly close. More information on ZCTAs can be found here: https://www.census.gov/geo/reference/zctas.html"^^xsd:string ;
+  rdfs:label "2010 ZIP Census Tabulation Area"^^xsd:string ;
+.
+zcta:ZCTA_01001
+  rdf:type <http://www.census.gov/geo/zcta#2010ZCTA> ;
+  zcta:fipsStateCode "25"^^xsd:string ;
+  zcta:statePostalCode "MA"^^xsd:string ;
+  zcta:totalPop_2010census 16769 ;
+  zcta:zipCode "01001"^^xsd:string ;
+  zcta:zipState <http://www.census.gov/acs/pums/2014/enhanced_schema_new#State_25> ;
+  rdfs:label "Agawam Town, MA"^^xsd:string ;
+.
+zcta:ZCTA_01002
+  rdf:type <http://www.census.gov/geo/zcta#2010ZCTA> ;
+  zcta:fipsStateCode "25"^^xsd:string ;
+  zcta:statePostalCode "MA"^^xsd:string ;
+  zcta:totalPop_2010census 29049 ;
+  zcta:zipCode "01002"^^xsd:string ;
+  zcta:zipState <http://www.census.gov/acs/pums/2014/enhanced_schema_new#State_25> ;
+  rdfs:label "Amherst Center, MA"^^xsd:string ;
+.
+
+zcta:ZCTA_02128
+  rdf:type <http://www.census.gov/geo/zcta#2010ZCTA> ;
+  zcta:fipsStateCode "25"^^xsd:string ;
+  zcta:statePostalCode "MA"^^xsd:string ;
+  zcta:totalPop_2010census 40508 ;
+  zcta:zipCode "02128"^^xsd:string ;
+  zcta:zipState <http://www.census.gov/acs/pums/2014/enhanced_schema_new#State_25> ;
+  rdfs:label "Boston, MA"^^xsd:string ;
+.
+zcta:ZCTA_02129
+  rdf:type <http://www.census.gov/geo/zcta#2010ZCTA> ;
+  zcta:fipsStateCode "25"^^xsd:string ;
+  zcta:statePostalCode "MA"^^xsd:string ;
+  zcta:totalPop_2010census 16439 ;
+  zcta:zipCode "02129"^^xsd:string ;
+  zcta:zipState <http://www.census.gov/acs/pums/2014/enhanced_schema_new#State_25> ;
+  rdfs:label "Boston, MA"^^xsd:string ;
+.
+
+zcta:ZCTA_99330
+  rdf:type <http://www.census.gov/geo/zcta#2010ZCTA> ;
+  zcta:fipsStateCode "53"^^xsd:string ;
+  zcta:statePostalCode "WA"^^xsd:string ;
+  zcta:totalPop_2010census 907 ;
+  zcta:zipCode "99330"^^xsd:string ;
+  zcta:zipState <http://www.census.gov/acs/pums/2014/enhanced_schema_new#State_53> ;
+  rdfs:label "Eltopia, WA"^^xsd:string ;
+.
+zcta:ZCTA_99333
+  rdf:type <http://www.census.gov/geo/zcta#2010ZCTA> ;
+  zcta:fipsStateCode "53"^^xsd:string ;
+  zcta:statePostalCode "WA"^^xsd:string ;
+  zcta:totalPop_2010census 50;
+  zcta:zipCode "99333"^^xsd:string ;
+  zcta:zipState <http://www.census.gov/acs/pums/2014/enhanced_schema_new#State_53> ;
+  rdfs:label "Hooper, WA (PO Boxes)"^^xsd:string ;
+.
+zcta:ZCTA_99335
+  rdf:type <http://www.census.gov/geo/zcta#2010ZCTA> ;
+  zcta:fipsStateCode "53"^^xsd:string ;
+  zcta:statePostalCode "WA"^^xsd:string ;
+  zcta:totalPop_2010census 340 ;
+  zcta:zipCode "99335"^^xsd:string ;
+  zcta:zipState <http://www.census.gov/acs/pums/2014/enhanced_schema_new#State_53> ;
+  rdfs:label "Kahlotus, WA"^^xsd:string ;
+.
+zcta:ZCTA_99577
+  rdf:type <http://www.census.gov/geo/zcta#2010ZCTA> ;
+  zcta:fipsStateCode "02"^^xsd:string ;
+  zcta:statePostalCode "AK"^^xsd:string ;
+  zcta:totalPop_2010census 25771 ;
+  zcta:zipCode "99577"^^xsd:string ;
+  zcta:zipState <http://www.census.gov/acs/pums/2014/enhanced_schema_new#State_02> ;
+  rdfs:label "Anchorage, AK"^^xsd:string ;
+.
+zcta:ZCTA_99578
+  rdf:type <http://www.census.gov/geo/zcta#2010ZCTA> ;
+  zcta:fipsStateCode "02"^^xsd:string ;
+  zcta:statePostalCode "AK"^^xsd:string ;
+  zcta:totalPop_2010census 296 ;
+  zcta:zipCode "99578"^^xsd:string ;
+  zcta:zipState <http://www.census.gov/acs/pums/2014/enhanced_schema_new#State_02> ;
+  rdfs:label "Eek, AK"^^xsd:string ;
+.
+zcta:ZCTA_99579
+  rdf:type <http://www.census.gov/geo/zcta#2010ZCTA> ;
+  zcta:fipsStateCode "02"^^xsd:string ;
+  zcta:statePostalCode "AK"^^xsd:string ;
+  zcta:totalPop_2010census 109 ;
+  zcta:zipCode "99579"^^xsd:string ;
+  zcta:zipState <http://www.census.gov/acs/pums/2014/enhanced_schema_new#State_02> ;
+  rdfs:label "Egegik, AK"^^xsd:string ;
+.
+zcta:ZCTA_99580
+  rdf:type <http://www.census.gov/geo/zcta#2010ZCTA> ;
+  zcta:fipsStateCode "02"^^xsd:string ;
+  zcta:statePostalCode "AK"^^xsd:string ;
+  zcta:totalPop_2010census 115 ;
+  zcta:zipCode "99580"^^xsd:string ;
+  zcta:zipState <http://www.census.gov/acs/pums/2014/enhanced_schema_new#State_02> ;
+  rdfs:label "Ekwok, AK"^^xsd:string ;
+.
+zcta:ZCTA_99763
+  rdf:type <http://www.census.gov/geo/zcta#2010ZCTA> ;
+  zcta:fipsStateCode "02"^^xsd:string ;
+  zcta:statePostalCode "AK"^^xsd:string ;
+  zcta:totalPop_2010census 668 ;
+  zcta:zipCode "99763"^^xsd:string ;
+  zcta:zipState <http://www.census.gov/acs/pums/2014/enhanced_schema_new#State_02> ;
+  rdfs:label "Noorvik, AK"^^xsd:string ;
+.
+zcta:ZCTA_99764
+  rdf:type <http://www.census.gov/geo/zcta#2010ZCTA> ;
+  zcta:fipsStateCode "02"^^xsd:string ;
+  zcta:statePostalCode "AK"^^xsd:string ;
+  zcta:totalPop_2010census 290 ;
+  zcta:zipCode "99764"^^xsd:string ;
+  zcta:zipState <http://www.census.gov/acs/pums/2014/enhanced_schema_new#State_02> ;
+  rdfs:label "Northway Village, AK"^^xsd:string ;
+.
+
+zcta:ZCTA_99826
+  rdf:type <http://www.census.gov/geo/zcta#2010ZCTA> ;
+  zcta:fipsStateCode "02"^^xsd:string ;
+  zcta:statePostalCode "AK"^^xsd:string ;
+  zcta:totalPop_2010census 442 ;
+  zcta:zipCode "99826"^^xsd:string ;
+  zcta:zipState <http://www.census.gov/acs/pums/2014/enhanced_schema_new#State_02> ;
+  rdfs:label "Gustavus, AK"^^xsd:string ;
+.
+zcta:ZCTA_99827
+  rdf:type <http://www.census.gov/geo/zcta#2010ZCTA> ;
+  zcta:fipsStateCode "02"^^xsd:string ;
+  zcta:statePostalCode "AK"^^xsd:string ;
+  zcta:totalPop_2010census 2602 ;
+  zcta:zipCode "99827"^^xsd:string ;
+  zcta:zipState <http://www.census.gov/acs/pums/2014/enhanced_schema_new#State_02> ;
+  rdfs:label "Haines, AK"^^xsd:string ;
+.
+zcta:fipsStateCode
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain <http://www.census.gov/geo/zcta#2010ZCTA> ;
+  rdfs:label "Two-digit FIPS state code in which this ZCTA/ZIP resides"^^xsd:string ;
+  rdfs:range xsd:string ;
+.
+zcta:statePostalCode
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain <http://www.census.gov/geo/zcta#2010ZCTA> ;
+  rdfs:label "Two-letter state Postal Code for the state in which this ZCTA/ZIP resides"^^xsd:string ;
+  rdfs:range xsd:string ;
+.
+zcta:totalPop_2010census
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain <http://www.census.gov/geo/zcta#2010ZCTA> ;
+  rdfs:label "Total Population of this ZCTA/ZIP (2010 Census data)"^^xsd:string ;
+  rdfs:range xsd:integer ;
+.
+zcta:zipCode
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain <http://www.census.gov/geo/zcta#2010ZCTA> ;
+  rdfs:label "2010 ZCTA/ZIP Code"^^xsd:string ;
+  rdfs:range xsd:string ;
+.
+zcta:zipState
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain <http://www.census.gov/geo/zcta#2010ZCTA> ;
+  rdfs:label "Links to the URI of the state in which this ZCTA/ZIP resides"^^xsd:string ;
+  rdfs:range <http://www.census.gov/acs/pums/2014/enhanced_schema_new#State> ;
+.
